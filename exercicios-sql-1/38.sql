@@ -1,0 +1,1 @@
+select emp.emp_no as Numero, emp.first_name as Nome from employees as emp where emp.emp_no in (494831, 479832, 599833, 499832) and emp.gender IN ('M' and 'F');
